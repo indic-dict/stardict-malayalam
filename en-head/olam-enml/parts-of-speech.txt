@@ -1,0 +1,62 @@
+{
+    "n": {
+        "en": "Noun",
+        "ml": "നാമം"
+    },
+    "v": {
+        "en": "Verb",
+        "ml": "ക്രിയ"
+    },
+    "a": {
+        "en": "Adjective",
+        "ml": "വിശേഷണം"
+    },
+    "adv": {
+        "en": "Adverb",
+        "ml": "ക്രിയാവിശേഷണം"
+    },
+    "pron": {
+        "en": "Pronoun",
+        "ml": "സര്‍വ്വനാമം"
+    },
+    "propn": {
+        "en": "Proper noun",
+        "ml": "സംജ്ഞാനാമം"
+    },
+    "phrv": {
+        "en": "Phrasal verb",
+        "ml": "ഉപവാക്യ ക്രിയ"
+    },
+    "conj": {
+        "en": "Conjunction",
+        "ml": "അവ്യയം"
+    },
+    "interj": {
+        "en": "Interjection",
+        "ml": "വ്യാക്ഷേപകം"
+    },
+    "prep": {
+        "en": "Preposition",
+        "ml": "ഉപസര്‍ഗം"
+    },
+    "pfx": {
+        "en": "Prefix",
+        "ml": "പൂർവ്വപ്രത്യയം"
+    },
+    "sfx": {
+        "en": "Suffix",
+        "ml": "പ്രത്യയം"
+    },
+    "idm": {
+        "en": "Idiom",
+        "ml": "ഭാഷാശൈലി"
+    },
+    "abbr": {
+        "en": "Abbreviation",
+        "ml": "സംക്ഷേപം"
+    },
+    "auxv": {
+        "en": "Auxiliary verb",
+        "ml": "പൂരകകൃതി"
+    }
+}
