@@ -1,3 +1,5 @@
 just run download_and_launch_converter.sh , it will download olam database, and unzips it, and then launches python(2.7) script olam2babylon.py which converts dataset into babylon file. we can code downloading and unzipping in python itself, but wget, unzip does them good without much coding.
 
+License: ODbL
+		 http://opendatacommons.org/licenses/odbl/summary/
 
