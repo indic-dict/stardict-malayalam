@@ -2,7 +2,7 @@ STARDICT_TOOLS_DIR=~/stardict/tools/src/
 STARDICT_SANSKRIT_BIN=~/stardict-sanskrit/bin
 
 # Let the URL not end with /.
-URL=https://github.com/sanskrit-coders/stardict-malayalam/raw/master/en-head/$(shell pwd|sed -e s/.*[/]//)/tars
+URL=https://github.com/sanskrit-coders/stardict-malayalam/raw/master/$(shell pwd|sed -e s/.*[/]//)/tars
 
 # make all DICTS=xyz
 DICTS=.*
