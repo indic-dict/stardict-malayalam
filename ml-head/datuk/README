@@ -1,0 +1,13 @@
+just run download_and_launch_converter.sh , it will download datuk corpus, then launches python(2.7) script datuk2babylon.py which converts dataset into babylon file. we can code downloading in python itself, but wget dose it good without much coding.
+
+corpus: https://github.com/knadh/datuk
+
+The Datuk corpus is a free and open source Malayalam–Malayalam dictionary dataset with over 106,000 definitions for more than 83,000 Malayalam words. It is an extensively refined and semanticized version of Datuk's original digitisation work incorporating tens of thousands of changes. The majority of words and definitions are grammar tagged, and a large number of records also have additional metadata attached to them.
+
+License: ODbL
+		 http://opendatacommons.org/licenses/odbl/summary/
+		 Kailash Nadh,  http://nadh.in
+
+
+
+
