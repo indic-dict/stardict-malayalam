@@ -6,6 +6,7 @@ URL=https://github.com/indic-dict/stardict-malayalam/raw/gh-pages/$(shell pwd|se
 
 # make all DICTS=xyz
 DICTS=.*
+OVERWRITE=false
 
 .PHONY: all stardict tars
 
@@ -21,7 +22,7 @@ tars:
 	bash $(DICT_TOOLS_BIN_BASH)/make_tarballs.sh $(URL) DICTS=$(DICTS)
 
 full:
-	bash $(DICT_TOOLS_BIN_BASH)/full_build.sh $(URL) DICTS=$(DICTS) GITHUB_TOKEN=$(GITHUB_TOKEN)
+	bash $(DICT_TOOLS_BIN_BASH)/full_build.sh $(URL) DICTS=$(DICTS) GITHUB_TOKEN=$(GITHUB_TOKEN) overwrite=$(OVERWRITE)
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 current_dir := $(dir $(mkfile_path))
 # Let the URL not end with /.
